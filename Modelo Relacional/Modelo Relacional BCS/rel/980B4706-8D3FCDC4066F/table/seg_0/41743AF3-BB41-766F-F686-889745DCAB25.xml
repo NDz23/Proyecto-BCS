@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="41743AF3-BB41-766F-F686-889745DCAB25" name="TBL_ESTADOS_PUBLICACION">
+<createdBy>diazn</createdBy>
+<createdTime>2017-11-29 07:53:46 UTC</createdTime>
+<ownerDesignName>Modelo Relacional BCS</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ESTADO_PUBLICACION" id="C958717C-A164-AB68-EECF-42F418CBF452">
+<createdBy>diazn</createdBy>
+<createdTime>2017-11-29 07:55:14 UTC</createdTime>
+<ownerDesignName>Modelo Relacional BCS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO_PUBLICACION" id="0931E305-3E37-99BA-C66A-6A0F0819991F">
+<createdBy>diazn</createdBy>
+<createdTime>2017-11-29 07:55:14 UTC</createdTime>
+<ownerDesignName>Modelo Relacional BCS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CFA991DE-FB6C-B9E0-4241-3125B4BE84B1" name="TBL_ESTADOS_PUBLICACIONES_PK">
+<createdBy>diazn</createdBy>
+<createdTime>2017-11-29 07:55:14 UTC</createdTime>
+<ownerDesignName>Modelo Relacional BCS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C958717C-A164-AB68-EECF-42F418CBF452"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

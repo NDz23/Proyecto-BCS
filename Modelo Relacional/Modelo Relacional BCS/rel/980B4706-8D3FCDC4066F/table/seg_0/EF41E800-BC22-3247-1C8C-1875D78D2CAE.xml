@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EF41E800-BC22-3247-1C8C-1875D78D2CAE" name="TBL_REACCIONES_X_PUBLICACION">
+<createdBy>diazn</createdBy>
+<createdTime>2017-11-29 08:19:40 UTC</createdTime>
+<ownerDesignName>Modelo Relacional BCS</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PUBLICACION" id="D41AA70D-B927-44CF-CF80-92042653F707">
+<createdBy>diazn</createdBy>
+<createdTime>2017-11-29 08:20:14 UTC</createdTime>
+<ownerDesignName>Modelo Relacional BCS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1C776645-0E9E-9259-DB87-BEE3ABEA6828" referredColumn="C45285F3-66C7-BDC9-F1D8-BE916626A36D"/>
+</associations>
+</Column>
+<Column name="CODIGO_USUARIO" id="529D2880-E4AA-A4E8-00AD-D139E2CF599D">
+<createdBy>diazn</createdBy>
+<createdTime>2017-11-29 08:20:40 UTC</createdTime>
+<ownerDesignName>Modelo Relacional BCS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AFF30DDE-4EB2-7ABD-6646-B212D0B7F8FC" referredColumn="3E337A8B-5E5B-353C-BADA-3EABEEA16D0D"/>
+</associations>
+</Column>
+<Column name="CODIGO_REACCION" id="A40E5B91-5995-118A-293F-4C35D8DA5347">
+<createdBy>diazn</createdBy>
+<createdTime>2017-11-29 08:19:54 UTC</createdTime>
+<ownerDesignName>Modelo Relacional BCS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B3E9C42E-D66A-2313-3121-72A60AB39CD1" referredColumn="A984C9D9-C295-79AC-A921-137FC41D8FC4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FE63A3E2-E2D1-D56C-3E63-BE6BDC211A7E" name="TBL_REACCIONES_X_PUBLICACION_PK">
+<createdBy>diazn</createdBy>
+<createdTime>2017-11-29 08:21:27 UTC</createdTime>
+<ownerDesignName>Modelo Relacional BCS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="529D2880-E4AA-A4E8-00AD-D139E2CF599D"/>
+<colUsage columnID="D41AA70D-B927-44CF-CF80-92042653F707"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E922CBA2-F032-AD7D-D4D8-64111524F47F" name="REA_X_PUB_REA_FK">
+<createdBy>diazn</createdBy>
+<createdTime>2017-11-29 08:19:54 UTC</createdTime>
+<ownerDesignName>Modelo Relacional BCS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A40E5B91-5995-118A-293F-4C35D8DA5347"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="30A13A69-58F4-971A-4652-9D08B2AA1DC2" name="REA_X_PUB_PUB_FK">
+<createdBy>diazn</createdBy>
+<createdTime>2017-11-29 08:20:14 UTC</createdTime>
+<ownerDesignName>Modelo Relacional BCS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D41AA70D-B927-44CF-CF80-92042653F707"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="172ED1A0-249A-2019-7CD6-75E2F5967C7A" name="REA_X_PUB_USU_FK">
+<createdBy>diazn</createdBy>
+<createdTime>2017-11-29 08:20:40 UTC</createdTime>
+<ownerDesignName>Modelo Relacional BCS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="529D2880-E4AA-A4E8-00AD-D139E2CF599D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

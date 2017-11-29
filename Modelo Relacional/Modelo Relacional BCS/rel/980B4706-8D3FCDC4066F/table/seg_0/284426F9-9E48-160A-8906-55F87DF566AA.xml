@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="284426F9-9E48-160A-8906-55F87DF566AA" name="TBL_PUBLICACIONES">
+<createdBy>diazn</createdBy>
+<createdTime>2017-11-29 07:48:22 UTC</createdTime>
+<ownerDesignName>Modelo Relacional BCS</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PUBLICACION" id="C45285F3-66C7-BDC9-F1D8-BE916626A36D">
+<createdBy>diazn</createdBy>
+<createdTime>2017-11-29 07:52:17 UTC</createdTime>
+<ownerDesignName>Modelo Relacional BCS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_USUARIO" id="2191EC64-C7F9-20E7-6BB5-5AE4BF925BF9">
+<createdBy>diazn</createdBy>
+<createdTime>2017-11-29 07:58:14 UTC</createdTime>
+<ownerDesignName>Modelo Relacional BCS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BF5153A2-42CE-C9BC-D64A-55BB6EBD35F9" referredColumn="3E337A8B-5E5B-353C-BADA-3EABEEA16D0D"/>
+</associations>
+</Column>
+<Column name="CODIGO_TIPO_PUBLICACION" id="06E644BF-855A-6306-4FDC-D4412432B97E">
+<createdBy>diazn</createdBy>
+<createdTime>2017-11-29 07:56:46 UTC</createdTime>
+<ownerDesignName>Modelo Relacional BCS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CBAED661-0E69-BC93-3A3B-C68C365D8821" referredColumn="6443B404-C756-98C3-F640-E67BCFA43702"/>
+</associations>
+</Column>
+<Column name="CODIGO_ESTADO_PUBLICACION" id="B755C066-836D-4AFC-9F79-3763DA347916">
+<createdBy>diazn</createdBy>
+<createdTime>2017-11-29 07:57:11 UTC</createdTime>
+<ownerDesignName>Modelo Relacional BCS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C9A89B35-578B-BF03-74F4-F9014E5E5DED" referredColumn="C958717C-A164-AB68-EECF-42F418CBF452"/>
+</associations>
+</Column>
+<Column name="TITULO_PUBLICACION" id="FE24C96E-CA6B-9563-21F1-3157437A85BE">
+<createdBy>diazn</createdBy>
+<createdTime>2017-11-29 07:52:17 UTC</createdTime>
+<ownerDesignName>Modelo Relacional BCS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTENIDO_PUBLICACION" id="603C9B48-DFA9-3409-E70B-7454B502D7B5">
+<createdBy>diazn</createdBy>
+<createdTime>2017-11-29 07:52:17 UTC</createdTime>
+<ownerDesignName>Modelo Relacional BCS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_HORA" id="C4CEA23F-9932-49FF-288F-667369D305F1">
+<createdBy>diazn</createdBy>
+<createdTime>2017-11-29 08:22:39 UTC</createdTime>
+<ownerDesignName>Modelo Relacional BCS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EC0C18F6-AF04-2ADA-B2A3-71ED8F110A95" name="TBL_PUBLICACIONES_PK">
+<createdBy>diazn</createdBy>
+<createdTime>2017-11-29 07:52:17 UTC</createdTime>
+<ownerDesignName>Modelo Relacional BCS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C45285F3-66C7-BDC9-F1D8-BE916626A36D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="562D00BC-FFAA-A6A2-C0D4-0D3752AE9360" name="PUB_TIP_PUB_FK">
+<createdBy>diazn</createdBy>
+<createdTime>2017-11-29 07:56:46 UTC</createdTime>
+<ownerDesignName>Modelo Relacional BCS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06E644BF-855A-6306-4FDC-D4412432B97E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2FB85554-D3D5-6984-48D7-B0A8F28B6F41" name="PUB_EST_PUB_FK">
+<createdBy>diazn</createdBy>
+<createdTime>2017-11-29 07:57:11 UTC</createdTime>
+<ownerDesignName>Modelo Relacional BCS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B755C066-836D-4AFC-9F79-3763DA347916"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ECBA7221-01FB-6AF3-4541-1C5C4830BE36" name="PUB_USU_FK">
+<createdBy>diazn</createdBy>
+<createdTime>2017-11-29 07:58:14 UTC</createdTime>
+<ownerDesignName>Modelo Relacional BCS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2191EC64-C7F9-20E7-6BB5-5AE4BF925BF9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

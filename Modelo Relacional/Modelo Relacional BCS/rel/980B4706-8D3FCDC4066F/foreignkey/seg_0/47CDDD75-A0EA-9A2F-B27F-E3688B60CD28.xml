@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="47CDDD75-A0EA-9A2F-B27F-E3688B60CD28" containerWithKeyObject="8C81686B-726C-471A-CC06-8D34FF63BA72" localFKIndex="87E22298-6125-3565-F86B-05072F479456" name="COM_X_PUB_PUB_FK">
+<createdBy>diazn</createdBy>
+<createdTime>2017-11-29 08:13:47 UTC</createdTime>
+<ownerDesignName>Modelo Relacional BCS</ownerDesignName>
+<referredTableLongName>TBL_PUBLICACIONES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>284426F9-9E48-160A-8906-55F87DF566AA</referredTableID>
+<keyObject>EC0C18F6-AF04-2ADA-B2A3-71ED8F110A95</keyObject>
+<referredKeyID>EC0C18F6-AF04-2ADA-B2A3-71ED8F110A95</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_PUBLICACION</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6E93595A-E842-2CD3-880E-F683D060D4B9" name="TBL_COMENTARIOS">
+<createdBy>diazn</createdBy>
+<createdTime>2017-11-29 07:48:34 UTC</createdTime>
+<ownerDesignName>Modelo Relacional BCS</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_COMENTARIO" id="3E512F0C-C286-C2C7-FF2B-DF10444D061F">
+<createdBy>diazn</createdBy>
+<createdTime>2017-11-29 08:10:17 UTC</createdTime>
+<ownerDesignName>Modelo Relacional BCS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_USUARIO" id="C618FA7B-98E2-4A3B-A687-CDBC500F4840">
+<createdBy>diazn</createdBy>
+<createdTime>2017-11-29 08:11:40 UTC</createdTime>
+<ownerDesignName>Modelo Relacional BCS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FEBC6C32-42C7-0C97-C470-1ADF5D31C140" referredColumn="3E337A8B-5E5B-353C-BADA-3EABEEA16D0D"/>
+</associations>
+</Column>
+<Column name="TITULO_COMENTARIO" id="1F706222-2A1B-597E-5FFF-C4DCC96C8BD3">
+<createdBy>diazn</createdBy>
+<createdTime>2017-11-29 08:10:17 UTC</createdTime>
+<ownerDesignName>Modelo Relacional BCS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTENIDO_COMENTARIO" id="4D76A2D2-3927-AB2D-8667-E871F0180BD1">
+<createdBy>diazn</createdBy>
+<createdTime>2017-11-29 08:10:17 UTC</createdTime>
+<ownerDesignName>Modelo Relacional BCS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_HORA" id="D3D972E5-96EC-7ECA-8DBD-ED93839B0292">
+<createdBy>diazn</createdBy>
+<createdTime>2017-11-29 08:24:09 UTC</createdTime>
+<ownerDesignName>Modelo Relacional BCS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E6072433-1C70-8F78-3B74-164F9AAEBAD9" name="TBL_COMENTARIOS_PK">
+<createdBy>diazn</createdBy>
+<createdTime>2017-11-29 08:10:17 UTC</createdTime>
+<ownerDesignName>Modelo Relacional BCS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E512F0C-C286-C2C7-FF2B-DF10444D061F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="54212005-FAF7-69ED-4FA9-F882DB2CE2AD" name="COM_USU_FK">
+<createdBy>diazn</createdBy>
+<createdTime>2017-11-29 08:11:40 UTC</createdTime>
+<ownerDesignName>Modelo Relacional BCS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C618FA7B-98E2-4A3B-A687-CDBC500F4840"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

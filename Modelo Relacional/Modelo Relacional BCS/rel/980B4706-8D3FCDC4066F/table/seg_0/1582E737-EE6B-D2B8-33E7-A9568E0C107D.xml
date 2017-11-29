@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1582E737-EE6B-D2B8-33E7-A9568E0C107D" name="TBL_REACCIONES">
+<createdBy>diazn</createdBy>
+<createdTime>2017-11-29 08:15:54 UTC</createdTime>
+<ownerDesignName>Modelo Relacional BCS</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_REACCION" id="A984C9D9-C295-79AC-A921-137FC41D8FC4">
+<createdBy>diazn</createdBy>
+<createdTime>2017-11-29 08:16:45 UTC</createdTime>
+<ownerDesignName>Modelo Relacional BCS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REACCION" id="6A7DF222-0C08-5E06-1979-0ED0EB22B844">
+<createdBy>diazn</createdBy>
+<createdTime>2017-11-29 08:16:45 UTC</createdTime>
+<ownerDesignName>Modelo Relacional BCS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6F6B7AAA-7E73-BA09-39CF-91EB293A71EA" name="TBL_REACCIONES_PK">
+<createdBy>diazn</createdBy>
+<createdTime>2017-11-29 08:16:45 UTC</createdTime>
+<ownerDesignName>Modelo Relacional BCS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A984C9D9-C295-79AC-A921-137FC41D8FC4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
