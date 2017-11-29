@@ -16,7 +16,22 @@
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_TIPO_USUARIO" id="AE799AF6-AC98-D87C-436A-B70BA94BFFC1">
+<createdBy>diazn</createdBy>
+<createdTime>2017-11-29 09:01:54 UTC</createdTime>
+<ownerDesignName>Modelo Relacional BCS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="24EF9DD3-25DA-0F2B-843A-FB59510D02D5" referredColumn="294683C8-7DE3-3CC4-85C3-1683D753071F"/>
+</associations>
 </Column>
 <Column name="NUMERO_CUENTA" id="D0B34AD6-369D-762D-4CA8-5DD3E1B60E9E">
 <createdBy>diazn</createdBy>
@@ -57,8 +72,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="FECHA_REGISTRO" id="D989D959-100F-5D17-4717-223F2DF34608">
@@ -82,6 +97,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="3E337A8B-5E5B-353C-BADA-3EABEEA16D0D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E27C69C4-8587-19B8-97E9-AB002B3E6094" name="USU_TIP_USU_FK">
+<createdBy>diazn</createdBy>
+<createdTime>2017-11-29 09:01:54 UTC</createdTime>
+<ownerDesignName>Modelo Relacional BCS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE799AF6-AC98-D87C-436A-B70BA94BFFC1"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

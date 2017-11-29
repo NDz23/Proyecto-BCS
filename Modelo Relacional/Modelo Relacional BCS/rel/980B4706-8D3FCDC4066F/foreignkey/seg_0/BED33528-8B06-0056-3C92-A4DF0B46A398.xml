@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="ECE49BE5-9774-17DD-8D83-BE72D290F7E1" containerWithKeyObject="830983A5-C5E2-0889-789E-C3138D36D151" localFKIndex="042CABB1-1625-AD4F-9912-8471F4E4C154" name="AMI_USU_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BED33528-8B06-0056-3C92-A4DF0B46A398" containerWithKeyObject="AABCAAE0-02DB-C285-A2F2-33DFDAD839B0" localFKIndex="7F3A2239-6736-DAD1-19B2-779461900BA8" name="NOT_USU_FKv2">
 <createdBy>diazn</createdBy>
-<createdTime>2017-11-29 07:59:22 UTC</createdTime>
+<createdTime>2017-11-29 08:52:00 UTC</createdTime>
 <ownerDesignName>Modelo Relacional BCS</ownerDesignName>
 <referredTableLongName>TBL_USUARIOS</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C0804935-8F0B-83ED-D228-B397F1801FA4" containerWithKeyObject="830983A5-C5E2-0889-789E-C3138D36D151" localFKIndex="2E5568AC-2FA1-F039-FA51-42DCB11BE36F" name="SEG_TIP_SEG_FK">
+<createdBy>diazn</createdBy>
+<createdTime>2017-11-29 09:09:59 UTC</createdTime>
+<ownerDesignName>Modelo Relacional BCS</ownerDesignName>
+<referredTableLongName>TBL_TIPOS_SEGUIMIENTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D615EDC6-D1FC-C3A9-0B36-3FCFC9DF9879</referredTableID>
+<keyObject>BEA8458B-F1A9-58FF-FBB7-4C90068B7F82</keyObject>
+<referredKeyID>BEA8458B-F1A9-58FF-FBB7-4C90068B7F82</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_TIPO_SEGUIMIENTO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

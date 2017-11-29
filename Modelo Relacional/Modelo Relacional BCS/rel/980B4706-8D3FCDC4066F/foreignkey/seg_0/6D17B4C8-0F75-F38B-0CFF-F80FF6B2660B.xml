@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6D17B4C8-0F75-F38B-0CFF-F80FF6B2660B" containerWithKeyObject="AABCAAE0-02DB-C285-A2F2-33DFDAD839B0" localFKIndex="65CB0F63-28B6-9FCA-60E2-26E7902B1D44" name="NOT_TIP_NOT_FK">
+<createdBy>diazn</createdBy>
+<createdTime>2017-11-29 08:46:58 UTC</createdTime>
+<ownerDesignName>Modelo Relacional BCS</ownerDesignName>
+<referredTableLongName>TBL_TIPOS_NOTIFICACION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>567DC73A-1E7A-5071-96D5-0931035BDFA2</referredTableID>
+<keyObject>45BFE738-B99C-CAAA-5EF0-4406F8AA51A9</keyObject>
+<referredKeyID>45BFE738-B99C-CAAA-5EF0-4406F8AA51A9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_TIPO_NOTIFICACION</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

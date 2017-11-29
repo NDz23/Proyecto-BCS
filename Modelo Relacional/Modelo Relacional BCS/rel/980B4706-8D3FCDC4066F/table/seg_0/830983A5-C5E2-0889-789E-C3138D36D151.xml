@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="830983A5-C5E2-0889-789E-C3138D36D151" name="TBL_AMISTADES">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="830983A5-C5E2-0889-789E-C3138D36D151" name="TBL_SEGUIDORES">
 <createdBy>diazn</createdBy>
 <createdTime>2017-11-29 07:48:46 UTC</createdTime>
 <ownerDesignName>Modelo Relacional BCS</ownerDesignName>
@@ -8,9 +8,9 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="CODIGO_USUARIO_UNO" id="4CEDCCB0-A1CB-3F09-5BC7-B3398F38B99F">
+<Column name="CODIGO_USUARIO_SEGUIDO" id="639F0D6A-ADDF-0ECF-B52F-87B483987181">
 <createdBy>diazn</createdBy>
-<createdTime>2017-11-29 07:59:22 UTC</createdTime>
+<createdTime>2017-11-29 08:55:35 UTC</createdTime>
 <ownerDesignName>Modelo Relacional BCS</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -19,12 +19,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="ECE49BE5-9774-17DD-8D83-BE72D290F7E1" referredColumn="3E337A8B-5E5B-353C-BADA-3EABEEA16D0D"/>
+<colAssociation fkAssociation="38444988-BD28-5C6D-18AB-94D1DED52C11" referredColumn="3E337A8B-5E5B-353C-BADA-3EABEEA16D0D"/>
 </associations>
 </Column>
-<Column name="CODIGO_USUARIO_DOS" id="D5558E62-C3EB-BC15-35E1-DFD5B216C6F1">
+<Column name="CODIGO_USUARIO_SEGUIDOR" id="40782BAC-5126-9CA3-0D55-4F8BA6CA558D">
 <createdBy>diazn</createdBy>
-<createdTime>2017-11-29 07:59:42 UTC</createdTime>
+<createdTime>2017-11-29 08:55:50 UTC</createdTime>
 <ownerDesignName>Modelo Relacional BCS</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,12 +33,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="C62E9BAC-1F55-1F51-D94D-A1DC87BDB833" referredColumn="3E337A8B-5E5B-353C-BADA-3EABEEA16D0D"/>
+<colAssociation fkAssociation="A07F9CB1-810C-16CF-79F1-1E0F3519A767" referredColumn="3E337A8B-5E5B-353C-BADA-3EABEEA16D0D"/>
 </associations>
 </Column>
-<Column name="CODIGO_ESTADO_AMISTAD" id="BDE08C6C-5D1A-7E03-9D5B-924E1AFEC7DB">
+<Column name="TBL_ESTADOS_SEGUIMIENTO_CODIGO_ESTADO_SEGUIMIENTO" id="24DE23EB-BB09-3856-84D0-E21B8DDB04DE">
 <createdBy>diazn</createdBy>
-<createdTime>2017-11-29 08:03:49 UTC</createdTime>
+<createdTime>2017-11-29 08:57:30 UTC</createdTime>
 <ownerDesignName>Modelo Relacional BCS</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -47,7 +47,21 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="BB427CCB-563D-DC51-8EDD-82172F64E20B" referredColumn="B2DBE795-1264-883F-4E35-7F41EA473B85"/>
+<colAssociation fkAssociation="F26DDFEC-A72C-3347-3E7B-A2232E6E383E" referredColumn="B2DBE795-1264-883F-4E35-7F41EA473B85"/>
+</associations>
+</Column>
+<Column name="TBL_TIPOS_SEGUIMIENTO_CODIGO_TIPO_SEGUIMIENTO" id="AA985845-8BA4-5B57-FF8C-6B758C90B06E">
+<createdBy>diazn</createdBy>
+<createdTime>2017-11-29 09:09:59 UTC</createdTime>
+<ownerDesignName>Modelo Relacional BCS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C0804935-8F0B-83ED-D228-B397F1801FA4" referredColumn="E9AD0AF7-4532-2F58-4A81-A5A4739AFA7D"/>
 </associations>
 </Column>
 </columns>
@@ -60,38 +74,48 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="D5558E62-C3EB-BC15-35E1-DFD5B216C6F1"/>
-<colUsage columnID="4CEDCCB0-A1CB-3F09-5BC7-B3398F38B99F"/>
+<colUsage columnID="40782BAC-5126-9CA3-0D55-4F8BA6CA558D"/>
+<colUsage columnID="639F0D6A-ADDF-0ECF-B52F-87B483987181"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="042CABB1-1625-AD4F-9912-8471F4E4C154" name="AMI_USU_FK">
+<ind_PK_UK id="A93DBE6A-74BF-D03E-46B0-240DE6FC5A93" name="SEG_USU_FK">
 <createdBy>diazn</createdBy>
-<createdTime>2017-11-29 07:59:22 UTC</createdTime>
+<createdTime>2017-11-29 08:55:35 UTC</createdTime>
 <ownerDesignName>Modelo Relacional BCS</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="4CEDCCB0-A1CB-3F09-5BC7-B3398F38B99F"/>
+<colUsage columnID="639F0D6A-ADDF-0ECF-B52F-87B483987181"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="F929FBA1-FA52-4CC7-FFEC-0B9CE10B2240" name="AMI_USU_FKv2">
+<ind_PK_UK id="654070B7-5BB7-A4F4-3D5F-EA5DE78C0643" name="SEG_USU_FKv2">
 <createdBy>diazn</createdBy>
-<createdTime>2017-11-29 07:59:42 UTC</createdTime>
+<createdTime>2017-11-29 08:55:50 UTC</createdTime>
 <ownerDesignName>Modelo Relacional BCS</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="D5558E62-C3EB-BC15-35E1-DFD5B216C6F1"/>
+<colUsage columnID="40782BAC-5126-9CA3-0D55-4F8BA6CA558D"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="7495FEE5-FA1C-5E9F-8D68-CBFEC52BE7F9" name="AMI_EST_AMI_FK">
+<ind_PK_UK id="05B241BB-9CD5-FCE3-0344-97B209702743" name="SEG_EST_SEG_FK">
 <createdBy>diazn</createdBy>
-<createdTime>2017-11-29 08:03:49 UTC</createdTime>
+<createdTime>2017-11-29 08:57:30 UTC</createdTime>
 <ownerDesignName>Modelo Relacional BCS</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="BDE08C6C-5D1A-7E03-9D5B-924E1AFEC7DB"/>
+<colUsage columnID="24DE23EB-BB09-3856-84D0-E21B8DDB04DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2E5568AC-2FA1-F039-FA51-42DCB11BE36F" name="SEG_TIP_SEG_FK">
+<createdBy>diazn</createdBy>
+<createdTime>2017-11-29 09:09:59 UTC</createdTime>
+<ownerDesignName>Modelo Relacional BCS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA985845-8BA4-5B57-FF8C-6B758C90B06E"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

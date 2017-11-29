@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9BDE4157-749E-4FF1-61A4-E1FCBDAD7405" name="TBL_TIPOS_PUBLICACION">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D615EDC6-D1FC-C3A9-0B36-3FCFC9DF9879" name="TBL_TIPOS_SEGUIMIENTO">
 <createdBy>diazn</createdBy>
-<createdTime>2017-11-29 07:52:19 UTC</createdTime>
+<createdTime>2017-11-29 09:08:22 UTC</createdTime>
 <ownerDesignName>Modelo Relacional BCS</ownerDesignName>
-<ordsAlias>table_7</ordsAlias>
+<ordsAlias>table_21</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="CODIGO_TIPO_PUBLICACION" id="6443B404-C756-98C3-F640-E67BCFA43702">
+<Column name="CODIGO_TIPO_SEGUIMIENTO" id="E9AD0AF7-4532-2F58-4A81-A5A4739AFA7D">
 <createdBy>diazn</createdBy>
-<createdTime>2017-11-29 07:53:09 UTC</createdTime>
+<createdTime>2017-11-29 09:08:50 UTC</createdTime>
 <ownerDesignName>Modelo Relacional BCS</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -19,9 +19,9 @@
 <autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="TIPO_PUBLICACION" id="A1CD55AC-178A-37DE-8B5E-E5339BD60EDF">
+<Column name="TIPO_SEGUIMIENTO" id="0723BFF0-C6FF-6551-977D-2C5CEC860059">
 <createdBy>diazn</createdBy>
-<createdTime>2017-11-29 07:53:09 UTC</createdTime>
+<createdTime>2017-11-29 09:08:50 UTC</createdTime>
 <ownerDesignName>Modelo Relacional BCS</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,15 +32,15 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="1C6D0CE8-D11D-5F73-B844-BB672A705A44" name="TBL_TIPOS_PUBLICACIONES_PK">
+<ind_PK_UK id="BEA8458B-F1A9-58FF-FBB7-4C90068B7F82" name="TBL_TIPOS_SEGUIMIENTO_PK">
 <createdBy>diazn</createdBy>
-<createdTime>2017-11-29 07:53:09 UTC</createdTime>
+<createdTime>2017-11-29 09:09:01 UTC</createdTime>
 <ownerDesignName>Modelo Relacional BCS</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="6443B404-C756-98C3-F640-E67BCFA43702"/>
+<colUsage columnID="E9AD0AF7-4532-2F58-4A81-A5A4739AFA7D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

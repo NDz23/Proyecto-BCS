@@ -33,6 +33,21 @@
 <colAssociation fkAssociation="FEBC6C32-42C7-0C97-C470-1ADF5D31C140" referredColumn="3E337A8B-5E5B-353C-BADA-3EABEEA16D0D"/>
 </associations>
 </Column>
+<Column name="CODIGO_COMENTARIO_SUPERIOR" id="4A84ADC6-B1C3-E692-9972-69C7F3E3B277">
+<createdBy>diazn</createdBy>
+<createdTime>2017-11-29 08:34:01 UTC</createdTime>
+<ownerDesignName>Modelo Relacional BCS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="05BF149E-4A8B-B8AA-B315-DBB0D091D2AA" referredColumn="3E512F0C-C286-C2C7-FF2B-DF10444D061F"/>
+</associations>
+</Column>
 <Column name="TITULO_COMENTARIO" id="1F706222-2A1B-597E-5FFF-C4DCC96C8BD3">
 <createdBy>diazn</createdBy>
 <createdTime>2017-11-29 08:10:17 UTC</createdTime>
@@ -86,6 +101,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="C618FA7B-98E2-4A3B-A687-CDBC500F4840"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="73C0F677-DAD1-FA8F-57BC-06F5EE1CE040" name="COM_COM_FK">
+<createdBy>diazn</createdBy>
+<createdTime>2017-11-29 08:34:01 UTC</createdTime>
+<ownerDesignName>Modelo Relacional BCS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A84ADC6-B1C3-E692-9972-69C7F3E3B277"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

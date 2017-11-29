@@ -1,15 +1,15 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BB427CCB-563D-DC51-8EDD-82172F64E20B" containerWithKeyObject="830983A5-C5E2-0889-789E-C3138D36D151" localFKIndex="7495FEE5-FA1C-5E9F-8D68-CBFEC52BE7F9" name="AMI_EST_AMI_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F26DDFEC-A72C-3347-3E7B-A2232E6E383E" containerWithKeyObject="830983A5-C5E2-0889-789E-C3138D36D151" localFKIndex="05B241BB-9CD5-FCE3-0344-97B209702743" name="SEG_EST_SEG_FK">
 <createdBy>diazn</createdBy>
-<createdTime>2017-11-29 08:03:49 UTC</createdTime>
+<createdTime>2017-11-29 08:57:30 UTC</createdTime>
 <ownerDesignName>Modelo Relacional BCS</ownerDesignName>
-<referredTableLongName>TBL_ESTADOS_AMISTADES</referredTableLongName>
+<referredTableLongName>TBL_ESTADOS_SEGUIMIENTO</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>1403D513-63DC-AC15-1A2B-04A335F63CFB</referredTableID>
 <keyObject>1B35E2D6-F4C1-719A-48B9-650CFB4D5A35</keyObject>
 <referredKeyID>1B35E2D6-F4C1-719A-48B9-650CFB4D5A35</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>CODIGO_ESTADO_AMISTAD</refColNames>
+<refColNames>CODIGO_ESTADO_SEGUIMIENTO</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
